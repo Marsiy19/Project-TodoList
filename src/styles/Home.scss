@@ -1,0 +1,24 @@
+.todo__list {
+    background-image: url('../assets/img/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:500px) {
+    .todo__list {
+        .todo__container{
+            .todo__section {
+                .todo__schould_content {
+                    .todo__schould_container {
+                        .todo_category_content {
+                            .todo_category {
+                                gap: 10px;
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
